@@ -8,7 +8,7 @@
 <body>
 <h2><s:property value="message" /></h2>
 <s:debug />
-<h2>${message}</h2>
+
 <h1>Here</h1>
 
 
