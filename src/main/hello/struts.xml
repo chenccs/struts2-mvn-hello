@@ -15,6 +15,11 @@
         <action name="fucktheworld" class="TestAction" method="execute">
             <result>index.jsp</result>
         </action>
+
+
+        <action name="say" class="TestAction" method="sayYes">
+            <result>index.jsp</result>
+        </action>
         <!-- Add your actions here -->
     </package>
 

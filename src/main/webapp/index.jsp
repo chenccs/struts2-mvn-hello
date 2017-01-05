@@ -8,8 +8,7 @@
 <body>
 <h2><s:property value="message" /></h2>
 <s:debug />
-
-<h1>Here</h1>
+<h1><s:property value="yes" /></h1>
 
 
 </body>

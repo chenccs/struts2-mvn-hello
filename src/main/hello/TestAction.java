@@ -14,11 +14,25 @@ public class TestAction extends ActionSupport{
 
     private String message;
 
+    public String getYes() {
+        return yes;
+    }
+
+    public void setYes(String yes) {
+        this.yes = yes;
+    }
+
+    private String yes;
+
     public void setMessage(String message){
         this.message = message;
     }
 
     public String getMessage() {
         return message;
+    }
+    public String sayYes() throws  Exception{
+       setYes("hello,say a word yes !");
+        return  SUCCESS;
     }
 }
